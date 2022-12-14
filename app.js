@@ -13,7 +13,7 @@ const resultt = document.querySelector("#resultt")
 // const resultt3 = document.querySelector("#resultt3")
 // console.log(date)
 
-let regExp = /\+996 \d{3} \d{2}-\d{2}-\d{2}/
+let regExp = /\+7 ((6[0-9][0-9]))-\d{3}-\d{2}-\d{2}-\d{2}$/
 
 phoneSubmit.addEventListener("click", () => {
     if(regExp.test(phoneNum.value)){
